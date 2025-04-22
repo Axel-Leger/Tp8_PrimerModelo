@@ -1,6 +1,5 @@
-// script.js
 let model;
-const threshold = 0.9; // Nivel de confianza
+const threshold = 0.9; 
 
 toxicity.load(threshold).then(m => {
   model = m;
